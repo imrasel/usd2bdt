@@ -1,0 +1,317 @@
+
+
+    @media (min-width: 600px) and (max-width: 1100px) {
+
+	.logo{
+	 }
+
+	.operator {
+		padding-top: 0px;
+	}
+	.menu ul li a {
+		padding: 8px 8px;
+	    font-size: 11px;
+	    color: #fff;
+	}
+	.login {
+		margin-top: -12px;
+	}
+	.login ul li a {
+		font-size: 11px;
+	}
+	.user_profile_link {
+    margin-top: 0px;
+    position: absolute;
+    top: 4px;
+    left: 53px;
+}
+	.send img{
+		display: none;
+	}
+	.receive img{
+		display: none;
+	}
+	.send_form h2 {
+		font-size: 17px;
+		font-weight: bold;
+		width: 91px;
+		height: 34px;
+	}
+	.send_form h2 img{
+		width: 15px;
+		display: inline-block;
+	}
+	.receive_form h2 {
+		font-size: 17px;
+		font-weight: bold;
+		width: 91px;
+		height: 34px;
+	}
+	.receive_form h2 img{
+		width: 15px;
+		display: inline-block;
+	}
+
+	.exchange input, .exchange select {
+		width: 180px;
+	    height: 35px;
+	    font-size: 15px;
+	}
+
+	.send_form input{
+	    float: right;
+	    position: absolute;
+	    width: 100px;
+	    right: 50px;
+	    top: 36px;
+	}
+	.send_form select {
+		margin-left: 10px;
+	}
+	.send_text {
+		margin-left: 0;
+	    position: relative;
+	    bottom: 18px;
+	    left: -50px;
+	}
+	.reserve_text {
+	    position: relative;
+	    bottom: 19px;
+	}
+	.account_number {
+		margin-left: 32px;
+	}
+	.receive_account {
+		margin-left: 53px;
+	}
+	.receive_form input{
+	    
+	    position: absolute;
+	    width: 100px;
+	    right: 50px;
+	    top: 157px;
+	}
+	
+	.crypto_area {
+		margin-top: 40px;
+	}
+	
+	.logo_slide ul li img {
+    	    width: 46px;
+	}
+	.report_exchange {
+	    overflow: hidden;
+	}
+	.logo_slide {
+		width: 613px;
+	}
+	.reserve_area {
+	}
+	.report_exchange {
+	    padding: 0px 8px;
+	    font-size: 10px;
+	}
+	.report_exchange table img {
+	    display: none;
+	}
+	.crypto	ul li span {
+	    left: 95px;
+	}
+	.main {
+		width: 113px;
+	}
+	.contact_area {
+		margin-top: 10px;
+	}
+	.about ul li p{
+		font-size: 6px;
+	}
+	.about ul li p .badge{
+		font-size: 6px;;
+	}
+	.verified_account_item {
+		margin-top: 10px;
+	}
+	.footer_item {
+		overflow: hidden;
+		clear: both;
+	}
+	.footer_item img {
+	    width: 147px;
+	}
+  }
+
+
+@media (min-width: 300px) and (max-width: 600px) {
+	.logo{
+	 	margin-left: 48px;
+	 }
+
+	.operator {
+		padding-top: 3px;
+	}
+	.menu ul li a {
+		padding: 8px 8px;
+	    font-size: 11px;
+	    color: #fff;
+	}
+	.login {
+		position: relative;
+		top: -10px;
+		float: left;
+		left: 15%;
+	}
+	.login ul li a {
+		font-size: 13px;
+	}
+	.send img{
+		display: none;
+	}
+	.receive img{
+		display: none;
+	}
+	.send_form h2 {
+		font-size: 17px;
+		font-weight: bold;
+		height: 32px;
+		width: 85px;
+	}
+	.send_form h2 img{
+		width: 12px;
+		display: inline-block;
+	}
+	.receive_form h2 {
+		font-size: 17px;
+		font-weight: bold;
+		height: 32px;
+		margin-top: 27px;
+		width: 96px;
+	}
+	.receive_form h2 img{
+		width: 12px;
+		display: inline-block;
+	}
+	.exchange input, .exchange select {
+		width: 180px;
+	    height: 30px;
+	    font-size: 15px;
+	}
+
+	.send_form input{
+	    position: absolute;
+		width: 100px;
+		top: 77px;
+		left: 22px;
+	}
+	.send_form select {
+		margin-left: 10px;
+	}
+	.send_text {
+		position: relative;
+		left: 96px;
+    	bottom: 12px;
+	}
+	.account_number {
+		margin-left: 32px;
+	}
+	.receive_account {
+		margin-left: 53px;
+	}
+	.receive_form input{
+	    position: absolute;
+		width: 100px;
+		top: 216px;
+	}
+
+	.reserve_text {
+		float: none;
+		position: relative;
+		bottom: 18px;
+		left: 110px;
+	}
+	
+	.crypto_area {
+		margin-top: 40px;
+	}
+	
+	.logo_slide ul li img {
+    	    width: 46px;
+	}
+	.report_exchange {
+	    overflow: hidden;
+	}
+	.logo_slide {
+		width: 315px;
+    	margin-bottom: 15px;
+	}
+
+	
+	.reserve_area {
+	    margin-top: 30px;
+	}
+	.reserve ul {
+	    overflow: hidden;
+	    /*margin-left: 90px;*/
+	}
+	.report_exchange {
+	    padding: 0px 0px;
+    	font-size: 8px;
+	}
+
+	.report_exchange table img {
+	    display: none;
+	}
+	.crypto	ul li span {
+	    left: 95px;
+	}
+	.contact_area {
+		margin-top: 10px;
+	}
+	.about ul li p{
+		font-size: 13px;
+	}
+	.verified_account_item {
+		margin-top: 10px;
+	}
+	.footer_item img{
+		margin-left: 33px;
+	}
+	.footer_item li{
+		padding-left: 101px;
+	}
+	.footer_item span{
+		margin-left: 101px;
+		margin-top: 10px;
+	}
+	.verified_account_item img {
+	    width: 281px;
+	}
+	.exctable {
+		max-width: 92%;
+	}
+	.confirm {
+	    width: 268px;
+	}
+
+	.exchange_area {
+	    margin-top: 0px;
+	}
+	.exchange {
+	    height: auto;
+	    padding-bottom: 50px;
+	}
+	.jumbotron {
+	    margin-left: 17px;
+	}
+	.exchange_confirm {
+	    height: 555px;
+	}
+	.exchange_confirm button {
+	    margin-left: 35px;
+	}
+	.rates {
+	    margin-top: 20px;
+	}
+	
+	
+  }

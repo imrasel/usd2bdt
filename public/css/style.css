@@ -1,0 +1,752 @@
+ul, h1, h2, h3, h4, p{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+*{
+	transition: .5s;
+}
+body{
+	background-color: #E9EBEE;
+}
+.clear_fix{
+	clear: both;
+}
+.header {
+	width: 100%;
+	background-color: #415E9B;
+}
+.login {
+
+}
+.login img{
+
+}
+.login .dropdown-menu a{
+	color: #425F9C;
+}
+.login ul {}
+.login ul li{
+	float: left;
+	padding: 15px 10px 10px 0px;
+}
+.login ul li:last-child {
+}
+.login ul li a{
+	color: #fff;
+	font-weight: bold;
+}
+.user_profile_link{
+	margin-top: 4px;
+}
+.operator {
+	padding-top: 17px;
+	padding-left: 10px;
+}
+
+.operator img{
+	width: 10px;
+	float: left;
+	margin-right: 7px;
+}
+.operator p{
+	color: #fff;
+}
+.operator span {
+	background-color: #39AC73;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 2px 9px;
+	border-radius: 1px;
+}
+
+.marquee {
+	/*margin-top: 10px;*/
+	background-color: #39AC73;
+	border-radius: 3px;
+	margin-top: 10px;
+}
+.scrolling {
+	color: #333333;
+	padding-top: 5px;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	width: 99%;
+}
+.scrolling span{
+	font-weight: bold;
+	color: yellow;
+}
+
+.menu_area {
+	background-color: #fff;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.logo {}
+.logo img{
+	max-width: 100%;
+	width: 190px;
+	padding-top: 5px;
+}
+.menu {}
+.menu ul {}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	padding: 20px 5px;
+	display: block;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+}
+.menu ul li a:hover{
+	color: #00A651;
+	text-decoration: none;
+}
+
+.exchange_notice {
+	width: 380px;
+	margin: 8px auto;
+	background-color: #415E9B;
+}
+.exchange_notice p{
+	color: #fff;
+	padding: 5px 20px;
+	font-weight: bold;
+}
+.exchange_area {
+	margin-top: 20px;
+	overflow: hidden;
+	
+}
+.exchange {
+	background-color: #fff;
+	height: 448px;
+	padding-left: 20px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+.exchange_confirm {
+	background-color: #fff;
+	height: 520px;
+	padding-top: 20px
+	overflow: hidden;
+	border-radius: 5px;
+}
+.exchange_confirm button {
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.exchange .row{
+	position: relative;
+	top: 30px;
+}
+.exchange input, .exchange select{
+	width: 215px;
+    height: 36px;
+	font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+.exchange button{
+	margin-top: 15px;
+}
+.exchange button img{
+	width: 30px;
+}
+
+.send {
+	float: left;
+	width: 360px;
+	margin-left: 10px;
+}
+.send .icon{
+	float: left;
+	width: 65px;
+	margin-top: 60px;
+	margin-right: 20px;
+	border: 2px solid #ccc;
+	border-radius: 50%;
+	padding: 2px;
+}
+.send_form {
+	float: left;
+}
+.send_form h2 {
+	height: 45px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.send_form h2 img{
+	width: 20px;
+	margin-right: 2px;
+}
+.calculate {
+	width: 290px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 20px;
+}
+.excbtn{
+	background-color: #415E9B;
+	border: none;
+	border-radius: 3px;
+}
+.excbtn:hover{
+	background-color: #39AC73;
+	
+}
+.send_text{
+	float: right;
+	font-weight: bold;
+	color: #415E9B;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.reserve_text{
+	float: left;
+	font-weight: bold;
+	color: #415E9B;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.receive_text{
+	float: right;
+	font-weight: bold;
+	color: #777;
+}
+.receive {
+	float: left;
+	width: 350px;
+	margin-left: 20px;
+}
+.receive .icon {
+	float: left;
+	width: 65px;
+	margin-top: 60px;
+	margin-left: 20px;
+	padding: 3px;
+	border-radius: 50%;
+	border: 2px solid #ccc;
+}
+.receive_form {
+	float: left;
+}
+.receive_form h2 {
+	height: 45px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.receive_form h2 img{
+	width: 20px;
+	margin-right: 2px;
+}
+.receive_account {
+	margin: 0px auto;
+}
+
+.reserve_area{
+	background-color: #fff;
+	border-radius: 5px;
+	padding-bottom: 45px;
+}
+.reserve_area .heading{
+	height: 40px;
+	width: 100%;
+	background-color: #415E9B;
+	padding-top: ;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.reserve_area .heading h4{
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+.reserve_area .heading img{
+	width: 33px;
+}
+.reserve {
+	margin-top: 10px;
+	overflow: hidden;
+}
+.reserve ul{
+	overflow: hidden;
+}
+.reserve ul li{
+	margin-bottom: 10px;
+}
+.reserve .details {
+	clear: all;
+}
+.reserve ul li img{
+	float: left;
+	margin-right: 10px;
+	width: 30px;
+	border-radius: 50%;
+}
+.reserve ul li .name{
+	font-weight: bold;
+	color: #415E9B;
+	width: 100%;
+}
+.reserve .amount{
+	font-weight: bold;
+	color: #888;
+	box-sizing: border-box;
+	display: inline-block;
+	text-transform: uppercase;
+	padding-left: 3px;
+}
+.reserve .amount span{
+	background-color: #415E9B;
+	padding: 2px 7px ;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.logo_slide {
+	width: 660px;
+	margin: 0 auto;
+	margin-top: 20px;
+	animation-duration: 2s;
+	animation-delay: 1s;
+
+}
+.logo_slide ul {
+	overflow: hidden;
+}
+.logo_slide ul li {
+	float: left;
+	padding-left: 5px;
+}
+.logo_slide ul li img{
+	width: 50px;
+	border-radius: 50%;
+}
+.feedback_area {
+	background-color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-top: 10px;
+	/*height: 350px;*/
+	padding-bottom: 20px;
+}
+.feedback_area h3{
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+.feedback_area h3 img{
+	width: 25px;
+}
+.feedback {}
+.feedback_item{
+	border: 1px solid #ccc;
+	padding: 10px;
+	height: 115px;
+	overflow: hidden;
+}
+.feedback_item h4{
+	background-color: #5CB85C;
+	display: inline-block;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 3px 7px;
+	border-radius: 4px;
+	margin-bottom: 5px;
+}
+.feedback_item p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	color: #666;
+}
+
+.report_area {
+	margin-top: 10PX;
+	border-radius: 5PX;
+}
+.report_area h3{
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+.report_area h3 img{
+	width: 25px;
+}
+.report_exchange {
+	font-weight: bold;
+	background-color: #fff;
+	padding: 13px 10px;
+	border-radius: 3px;
+}
+.table tr{
+
+}
+.table .name p{
+	color: #666;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.table .amount p{
+	color: #666;
+}
+
+.table .name img{
+	width: 25px;
+	float: left;
+	margin-right: 5px;
+}
+.table .user img{
+	width: 50px;
+	float: left;
+	margin-right: 5px;
+}
+
+.rates{
+	background-color: #fff;
+}
+.rates .heading{
+	height: 40px;
+	width: 100%;
+	background-color: #415E9B;
+	padding-top: ;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.rates .heading h4{
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.rate {}
+
+.contact_area{
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px 25px;
+}
+.contact_detais {}
+.contact_detais .main{
+	text-align: center;
+	margin-left: 30px;
+}
+.contact_detais .email{
+	border: 2px solid #ccc;
+	overflow: hidden;
+	padding: 10px 20px;
+}
+.contact_detais .email img{
+	float: left;
+	display: inline-block;
+	margin-right: 15px;
+	width: 50px;
+}
+.contact_detais .email p{
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.about_area{
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px 25px;
+	margin-top: 20px;
+}
+.about {}
+.about .main{
+	margin-left: 30px;
+}
+.about ul{
+	border: 2px solid #ccc;
+}
+.about ul li{
+	padding: 10px 5px;
+}
+.about ul li .text-success {
+
+	padding-right: 10px;
+}
+.about ul li a{
+	color: #000;
+	text-transform: capitalize;
+}
+.about ul li p{
+	font-weight: bold;
+}
+.about ul li p span{}
+.about ul li p .badge{
+	font-size: 15px;
+}
+.about li:nth-child(odd) .badge{
+	background-color: #3B5999;
+}
+.about li:nth-child(even) .badge{
+	background-color: #CD201F;
+}
+.about ul li p {}
+
+.verified_account_area {
+	background-color: #fff;
+	margin-top: 10px;
+	padding: 20px 30px;
+	border-radius: 5px;
+}
+.verified_account {}
+.verified_account .heading {
+	overflow: hidden;
+	margin-bottom: 15px;
+	padding: 0px 17px;
+}
+.verified_account .heading h4 {
+	float: left;
+}
+.verified_account .heading h4 img{
+	width: 40px;
+}
+.verified_account .heading button {
+	float: right;
+	width: 150px;
+}
+.verified_account_item {
+	overflow: hidden;
+	background-color: #415E9B;
+	height: 160px;
+	position: relative;
+	
+	border: 2px solid #415E9B;
+}
+.verified_account_item img {
+	position: absolute;
+	width: 248px;
+	height: 158px;
+	position: relative;
+}
+
+.verified_account_item .available {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.8);
+	padding: 5px 0px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.footer_area {
+	margin-top: 30px;
+	width: 100%;
+	border-top: 1px solid #fff;
+	padding-top: 20px;
+	background-color: #415E9B;
+}
+.footer {
+
+}
+.footer_item ul{
+	margin-top: 20px;
+	border-top: 1px solid #ccc;
+}
+.footer_item img{
+	width: 245px;
+	margin-left: -17px;
+}
+.footer_item span{
+	color: #fff;
+	padding: 2px 5px;
+	border-radius: 4px;
+
+}
+.footer_item ul li{
+	color: #fff;
+	font-weight: bold;
+	padding-left: 90px;
+}
+.footer_item a{
+	color: #fff;
+}
+.footer li a{
+	color: #fff;
+	font-weight: bold;
+	text-transform: capitalize;
+	line-height: 30px;
+}
+.footer li {}
+
+
+.user_area {
+	background-color: #EEEEEE;
+	margin-top: 50px;
+	padding: 20px;
+}
+.user_box {
+	margin-top: 70px;
+}
+.user_box_item {
+	width: 200px;
+	height: 100px;
+	background-color: #20B2AA;
+	padding: 10px;
+}
+.user_box_item .title {
+	text-align: center;
+	color: #fff;
+	font-weight: bold;;
+	font-size: 20px;
+
+}
+.user_box_item .number{
+	text-align: center;
+	color: #800000;
+	font-weight: bold;;
+	font-size: 20px;
+}
+
+.transaction_table{
+	font-size: 10px;
+	color: red;
+}
+.transaction_area{
+	border-radius: 3px;
+}
+.transaction_area h4{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.transaction_area table{
+	background-color: #fff;
+	padding: 10px;
+
+}
+td.id{
+	font-weight: bold;
+}
+td.title span{
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #ccc; 
+	color: #000;
+}
+
+.confirm {
+	width: 290px;
+	margin: 20px auto;
+}
+.confirm a{
+	margin-left: 20px;
+	margin-right: 20px;;
+}
+.confirm_form input{
+	display: ;
+}
+.confirm_form .form_hidden input{
+	display: none;
+}
+.confirm_form a{
+	margin-top: 15px;
+}
+.confirm_form .btn-prc{
+	border-radius: 2px;
+	background-color: #F26522;
+	width: 218px;
+}
+.exchange_update{
+	background-color: #fff;
+	padding: 20px;
+}
+.exchange_update h2{
+	margin-bottom: 15px;
+	text-align: center;
+}
+.exchange_update h4{
+	margin-bottom: 30px;
+	text-align: center;
+}
+.exchange_update form{
+	width: 300px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+.exchange_update form button{
+	width: 300px;
+	background-color: #415E9B;
+	border-radius: 3px;
+	border: none;
+}
+
+.account_number{
+	margin-bottom: 15px;
+	font-size: 18px;
+	color: #333;
+	margin-left: 37px;
+}
+
+.user_exchange {
+	border-radius: 
+}
+.user_exchange table{}
+
+.contact {
+	background-color: #F7F7F2;
+	padding: 50px 100px;
+	margin-top: 50px;
+	border-radius: 3px;
+}
+.contact  table{
+	width: 200px;
+	margin: 0 auto;
+}
+.contact  table tr{
+	height: 30px;
+}
+.terms {
+	background-color: #F7F7F2;
+	border-radius: 3px;
+	padding: 50px 100px;
+	margin-top: 50px;
+}
+.terms ul {
+	list-style-type: square;
+	margin-top: 30px;
+}
+
+.thanks{
+	background-color: #fff;
+	padding: 30px;
+	height: 200px;
+}
+.thanks h1{
+	text-align:center;
+}
+.thanks p{
+	margin-top: 20px;
+	font-size: 16px;
+}
+.thanks a{
+	background-color: #415E9B;
+	width: 300px;
+	border-radius: 2px;
+	border: none;
+	margin: 20px auto;
+	text-align: center;
+}
