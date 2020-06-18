@@ -5,7 +5,6 @@
 	<div class="marquee">
 		<marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();" id="MARQUEE1" style="text-align: left;" class="scrolling">  
 			<span>Update: </span>
-			{{$scroll->name}}
 
 		</marquee>
 	</div>
