@@ -1,4 +1,4 @@
-var domain = "https://usd2bdt.com/api";
+var domain = "http://usd2bdt.raselahmed.net/api";
 // var domain = "http://localhost/usd2bdt/public/api";
 $.ajaxSetup({
     headers: {
