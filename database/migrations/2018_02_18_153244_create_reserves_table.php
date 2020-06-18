@@ -16,7 +16,7 @@ class CreateReservesTable extends Migration
         Schema::create('reserves', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->varchar('icon');
+            $table->string('icon');
             $table->float('amount');
             $table->string('currency');
             $table->timestamps();
